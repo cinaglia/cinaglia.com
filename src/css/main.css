@@ -1,0 +1,70 @@
+a {
+	color: #333;
+}
+
+a:hover {
+	-webkit-transition: color 150ms ease-out;
+	-moz-transition: color 150ms ease-out;
+	-o-transition: color 150ms ease-out;
+	transition: color 150ms ease-out;
+
+	color: #666;
+}
+
+ul {
+	margin-bottom: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.me img {
+	display: block;
+	border-radius: 50%;
+	float: left;
+	clear: left;
+	margin-right: 1.5rem;
+}
+
+.me h4 {
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.container {
+	margin-top: 8%;
+}
+
+.section {
+	border-top: 1px solid #eee;
+	padding: 3rem 0;
+}
+
+.understate {
+	font-size: 1.2rem;
+	color: #666;
+}
+
+.fa {
+	margin-right: 1.2rem;
+}
+
+.contact {
+	border-top: 1px solid #eee;
+	margin-top: 3rem;
+	padding-top: 3rem;
+}
+
+.contact a {
+	text-decoration: none;
+}
+
+@media (min-width: 550px) {
+	.contact {
+		border: none;
+		margin-top: 0;
+		padding-top: 0;
+		text-align: right;
+	}
+}

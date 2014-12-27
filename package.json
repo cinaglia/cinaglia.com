@@ -1,0 +1,15 @@
+{
+  "name": "cinaglia.com",
+  "version": "1.0.0",
+  "description": "Victor Cinaglia - Full-stack Developer",
+  "author": "Victor Cinaglia",
+  "homepage": "https://cinaglia.com",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-cssmin": "~0.11.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-rsync": "~0.6.2"
+  }
+}
