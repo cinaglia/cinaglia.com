@@ -13,16 +13,23 @@ This is the V2 version of my [personal website](https://cinaglia.com). It is alm
 yarn global add gatsby-cli
 ```
 
-2. Install the project's dependencies.
+1. Clone the repository.
+
+```sh
+git clone https://github.com/cinaglia/cinaglia.com.git
+cd cinaglia.com
+```
+
+1. Install the project's dependencies.
 
 ```sh
 yarn install
 ```
 
-3. Run the app in development.
+1. Run the app in development.
 
 ```sh
 gatsby develop
 ```
 
-4. Start coding! The site should now be running on `http://localhost:8000`.
+1. Start coding! The site should now be running on `http://localhost:8000`.
