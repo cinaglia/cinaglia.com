@@ -9,27 +9,27 @@ This is the V2 version of my [personal website](https://cinaglia.com). It is alm
 
 1. Install the Gatsby CLI globally.
 
-   ```sh
-   yarn global add gatsby-cli
-   ```
+```sh
+yarn global add gatsby-cli
+```
 
 2. Clone the repository.
 
-   ```sh
-   git clone https://github.com/cinaglia/cinaglia.com.git
-   cd cinaglia.com
-   ```
+```sh
+git clone https://github.com/cinaglia/cinaglia.com.git
+cd cinaglia.com
+```
 
 3. Install the project's dependencies.
 
-   ```sh
-   yarn install
-   ```
+```sh
+yarn install
+```
 
 4. Run the app in development.
 
-   ```sh
-   gatsby develop
-   ```
+```sh
+gatsby develop
+```
 
 5. Start coding! The site should now be running on `http://localhost:8000`.
