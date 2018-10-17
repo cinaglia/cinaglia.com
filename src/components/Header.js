@@ -9,6 +9,10 @@ const Header = styled.section`
   text-transform: uppercase;
   width: 100%;
   margin-top: 15px;
+
+  h1 {
+    font-size: 1.4em;
+  }
 `;
 
 const Picture = styled.img`
