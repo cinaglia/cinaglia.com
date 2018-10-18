@@ -25,7 +25,7 @@ export default ({
 }) => (
   <Layout>
     <Helmet
-      title={`${name} - ${title}`}
+      title={title}
       meta={[
         { name: 'description', content: summary },
         { name: 'keywords', content: keywords.join(', ') },

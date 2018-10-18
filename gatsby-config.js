@@ -2,8 +2,15 @@ module.exports = {
   plugins: ['gatsby-plugin-emotion', 'gatsby-plugin-react-helmet'],
   siteMetadata: {
     name: 'Victor Cinaglia',
-    title: 'Senior Software Engineer',
-    keywords: ['Software Engineering', 'Python', 'JavaScript', 'React & Redux'],
+    title: 'Victor Cinaglia - Software Engineer',
+    keywords: [
+      'Software Engineering',
+      'Python',
+      'JavaScript',
+      'React & Redux',
+      'Tornado',
+      'Django',
+    ],
     picture:
       'https://media.licdn.com/dms/image/C4E03AQEO3PS7rWlyeA/profile-displayphoto-shrink_200_200/0?e=1545264000&v=beta&t=S311yHJZRVoQLvI9WnBLs4oI8bW8K7GCvm17PAra5mo',
     summary:
