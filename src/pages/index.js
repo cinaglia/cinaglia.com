@@ -28,7 +28,7 @@ export default ({
       title={`${name} - ${title}`}
       meta={[
         { name: 'description', content: summary },
-        { name: 'keywords', content: keywords.join(',') },
+        { name: 'keywords', content: keywords.join(', ') },
       ]}
       link={[{ rel: 'shortcut icon', type: 'image/png', href: icon }]}
     />
