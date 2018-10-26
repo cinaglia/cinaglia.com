@@ -6,8 +6,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "pretty":
-      "find . -name \"*.js\" | grep -v -f .gitignore | xargs prettier --write"
+    "pretty": "find . -name \"*.js\" | grep -v -f .gitignore | xargs prettier --write"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.6",
