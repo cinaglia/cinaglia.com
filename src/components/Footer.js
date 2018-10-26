@@ -44,7 +44,12 @@ const Social = ({ items }) => (
   <ul className={socialStyles}>
     {items.map(({ name, icon, url }, i) => (
       <li key={i}>
-        <a href={url} title={`Visit my ${name}`}>
+        <a
+          href={url}
+          title={`Visit my ${name}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon icon={['fab', icon]} size="lg" />
         </a>
       </li>
