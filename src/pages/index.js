@@ -36,7 +36,7 @@ export default ({
     <Header name={name} picture={picture} />
     <p>{summary}</p>
     <Specialties specialties={specialties} />
-    <Footer social={social} email={email} />
+    <Footer social={social} email={email} name={name} />
   </Layout>
 );
 

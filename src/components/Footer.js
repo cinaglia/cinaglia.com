@@ -57,9 +57,9 @@ const Social = ({ items }) => (
   </ul>
 );
 
-export default ({ social, email }) => (
+export default ({ social, email, name }) => (
   <StyledFooter>
     <Social items={social} />
-    <Obfuscate email={email} />
+    <Obfuscate email={`${name} <${email}>`}>{email}</Obfuscate>
   </StyledFooter>
 );
