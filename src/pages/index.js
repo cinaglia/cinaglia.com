@@ -31,7 +31,9 @@ export default ({
         { name: 'keywords', content: keywords.join(', ') },
       ]}
       link={[{ rel: 'shortcut icon', type: 'image/png', href: icon }]}
-    />
+    >
+      <html lang="en" />
+    </Helmet>
     <Header name={name} picture={picture} />
     <p>{summary}</p>
     <Specialties specialties={specialties} />
