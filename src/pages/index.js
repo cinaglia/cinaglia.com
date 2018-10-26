@@ -5,7 +5,6 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Specialties from '../components/Specialties';
-import icon from '../../static/favicon.png';
 
 export default ({
   data: {
@@ -29,8 +28,8 @@ export default ({
       meta={[
         { name: 'description', content: summary },
         { name: 'keywords', content: keywords.join(', ') },
+        { name: 'theme-color', content: '#222' },
       ]}
-      link={[{ rel: 'shortcut icon', type: 'image/png', href: icon }]}
     >
       <html lang="en" />
     </Helmet>

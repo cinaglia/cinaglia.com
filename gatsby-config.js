@@ -1,5 +1,21 @@
 module.exports = {
-  plugins: ['gatsby-plugin-emotion', 'gatsby-plugin-react-helmet'],
+  plugins: [
+    'gatsby-plugin-emotion',
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Victor Cinaglia',
+        short_name: 'cinaglia.com',
+        start_url: '/',
+        background_color: '#fff',
+        theme_color: '#222222',
+        display: 'standalone',
+        icon: 'src/assets/icon.png',
+      },
+    },
+    'gatsby-plugin-offline',
+  ],
   siteMetadata: {
     name: 'Victor Cinaglia',
     title: 'Victor Cinaglia - Software Engineer',
