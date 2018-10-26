@@ -1,5 +1,5 @@
 <h2>
-  <img alt="Victor Cinaglia" src="https://raw.githubusercontent.com/cinaglia/cinaglia.com/master/static/favicon.png" width="14" />
+  <img alt="Victor Cinaglia" src="https://www.cinaglia.com/icons/icon-48x48.png" width="14" />
   <span>cinaglia.com</span>
 </h2>
 
