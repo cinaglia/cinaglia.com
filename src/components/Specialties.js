@@ -15,7 +15,7 @@ const specialtiesStyles = css`
     }
 
     p {
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       margin-top: 0;
       color: #666;
       line-height: 1.5em;
