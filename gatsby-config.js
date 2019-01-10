@@ -27,8 +27,7 @@ module.exports = {
       'Tornado',
       'Django',
     ],
-    picture:
-      'https://media.licdn.com/dms/image/C4E03AQEO3PS7rWlyeA/profile-displayphoto-shrink_200_200/0?e=1545264000&v=beta&t=S311yHJZRVoQLvI9WnBLs4oI8bW8K7GCvm17PAra5mo',
+    picture: 'https://github.com/cinaglia.png?size=100',
     summary:
       'Accomplished software engineer with over a decade of industry experience building and maintaining applications in Python and JavaScript. Passionate about learning new technologies and dealing with all aspects of web development, including architecture, documentation, implementation, testing, and delivery.',
     email: 'victor@cinaglia.com',
