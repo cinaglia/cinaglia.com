@@ -14,9 +14,11 @@ module.exports = {
         icon: 'src/assets/icon.png',
       },
     },
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
   ],
   siteMetadata: {
+    siteUrl: 'https://cinaglia.com',
     name: 'Victor Cinaglia',
     title: 'Victor Cinaglia - Software Engineer',
     keywords: [
