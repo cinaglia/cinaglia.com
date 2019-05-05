@@ -11,7 +11,7 @@ import {
 library.add(faGithub, faTwitterSquare, faLinkedin);
 
 injectGlobal`
-  @import url('//fonts.googleapis.com/css?family=Raleway:300,600');
+  @import url('https://fonts.googleapis.com/css?family=Raleway:300,600');
 
   html, body, #___gatsby, #___gatsby > div {
     height: 100%;

@@ -29,7 +29,7 @@ module.exports = {
     ],
     picture: 'https://github.com/cinaglia.png?size=100',
     summary:
-      'Accomplished software engineer with over a decade of industry experience building and maintaining applications in Python and JavaScript. Passionate about learning new technologies and dealing with all aspects of web development, including architecture, documentation, implementation, testing, and delivery.',
+      'Software engineer with over a decade of industry experience building and maintaining applications in Python and JavaScript. Passionate about learning new technologies and dealing with all aspects of web development, including architecture, documentation, implementation, testing, and delivery.',
     email: 'victor@cinaglia.com',
     specialties: [
       {
