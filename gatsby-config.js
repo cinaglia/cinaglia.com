@@ -44,7 +44,7 @@ module.exports = {
           'HTML',
           'CSS',
           'PHP',
-          'Golang',
+          'Go',
           'Bash',
         ],
       },
