@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from 'react-emotion';
+import { css } from '@emotion/core';
 
 const specialtiesStyles = css`
   display: grid;
@@ -30,7 +30,7 @@ const specialtiesStyles = css`
 `;
 
 export default ({ specialties }) => (
-  <ul className={specialtiesStyles}>
+  <ul css={specialtiesStyles}>
     {specialties.map(({ name, items }, i) => (
       <li key={i}>
         <h4>{name}</h4>

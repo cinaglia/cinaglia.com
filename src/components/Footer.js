@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 import Obfuscate from 'react-obfuscate';
-import { css } from 'react-emotion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const StyledFooter = styled.section`
@@ -41,7 +41,7 @@ const socialStyles = css`
 `;
 
 const Social = ({ items }) => (
-  <ul className={socialStyles}>
+  <ul css={socialStyles}>
     {items.map(({ name, icon, url }, i) => (
       <li key={i}>
         <a

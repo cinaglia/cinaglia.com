@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'react-emotion';
-import { injectGlobal } from 'emotion';
+import styled from '@emotion/styled';
+import { Global, css } from '@emotion/core';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faGithub,
@@ -10,15 +10,18 @@ import {
 
 library.add(faGithub, faTwitterSquare, faLinkedin);
 
-injectGlobal`
+const globalStyles = css`
   @import url('https://fonts.googleapis.com/css?family=Raleway:300,600');
 
-  html, body, #___gatsby, #___gatsby > div {
+  html,
+  body,
+  #___gatsby,
+  #___gatsby > div {
     height: 100%;
   }
 
   body {
-    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Raleway, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.6em;
     color: #222;
     padding: 0;
@@ -37,4 +40,9 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-export default ({ children }) => <Container>{children}</Container>;
+export default ({ children }) => (
+  <Container>
+    <Global styles={globalStyles} />
+    {children}
+  </Container>
+);
