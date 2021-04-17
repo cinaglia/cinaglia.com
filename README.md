@@ -3,9 +3,7 @@
   <span>cinaglia.com</span>
 </h2>
 
-This is the V2 version of my [personal website](https://cinaglia.com). It is almost identical to the [previous version](https://github.com/cinaglia/cinaglia.com/tree/V1), the difference being that this was built using [Gatsby](https://www.gatsbyjs.org/) and is deployed on [Netlify](https://www.netlify.com/).
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/20860353-1dab-46f6-9012-556db4802d8c/deploy-status)](https://app.netlify.com/sites/cinaglia/deploys)
+This is the V2 version of my [personal website](https://cinaglia.com). It is almost identical to the [previous version](https://github.com/cinaglia/cinaglia.com/tree/V1), the difference being that this was built using [Gatsby](https://www.gatsbyjs.org/) and is deployed on [Cloudflare Pages](https://pages.cloudflare.com/).
 
 ## Quick Start
 
